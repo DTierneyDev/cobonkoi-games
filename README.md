@@ -5,6 +5,8 @@ User Centric Frontend Development Milestone Project
 This is a website created for Cobonkoi Games, an indie games development company that are currently developing their first game.
 The website includes information on the company, the game that is currently being developed and contact information should you wish to get in touch.
 In addition it allows you to sign up for the alpha testing of "Hard Brexit", and a monthly newsletter.
+
+A live demo can be found here: https://cobonkoi.github.io/cobonkoi-games/
  
 ## UX
  
