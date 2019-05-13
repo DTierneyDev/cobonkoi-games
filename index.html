@@ -7,14 +7,21 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="libraries/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>Cobonkoi Games</title>
 </head>
 
 <body>
 	<!---- ALERT ----->
-	<div class="alert alert-warning" role="alert">
-		Hard Brexit <strong>Alpha Sign Ups</strong> are now available! <a href="#" class="alert-link">Click here for more information!</a>
+	<div class="alert-container">
+		<div class="row d-none d-sm-block">
+			<div class="col-12">
+				<div class="alert alert-warning site-wide-alert">
+					Hard Brexit <strong>Alpha Sign Ups</strong> are now available! <a href="#" class="alert-link">Click here for more information!</a>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!----/ALERT ----->
 
@@ -24,25 +31,61 @@
 
 		<ul class="navbar-nav ml-auto mr-4">
 			<li class="active nav-item mr-3"><a class="nav-link" href="index.html">Home</a></li>
-			<li class="nav-item mr-3"><a class="nav-link" href="hard-brexit.html">Hard Brexit</a></li>
+			<li class="nav-item mr-3"><a class="nav-link" href="hard-brexit.html">Hard Brexit <span class="badge badge-success">NEW!</span></a></li>
 			<li class="nav-item mr-3"><a class="nav-link" href="about.html">About</a></li>
 			<li class="nav-item mr-3"><a class="nav-link" href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
 	<!----/NAVBAR ----->
-	
+
 	<!---- ALPHA CALLOUT ----->
 	<div class="container-fluid callout-container">
 		<div class="row">
 			<div class="col-12">
 				<section class="alpha-callout jumbotron text-center">
 					<h1 class="jumbotron-header">Hard Brexit</h1>
+					<hr>
+					<p>Become Theresa May and keep your politicians happy so that you can get your Brexit plan through!</p>
+					<button class="btn btn-lg" data-toggle="modal" data-target="#signUpModal">Sign up!</button>
 				</section>
 			</div>
 		</div>
 	</div>
 	<!---- /ALPHA CALLOUT ----->
-	
+
+
+	<!---- SIGN-UP MODAL ----->
+	<div class="modal fade" tabindex="-1" role="dialog" id="signUpModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Alpha Sign-Up</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<input class="form-control" id="exampleInputName" name="Name" aria-describedby="nameHelp" placeholder="Enter Name" required>
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" id="exampleInputEmail" name="Email" aria-describedby="emailHelp" placeholder="Enter Email" required>
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" id="exampleInputExperience" name="Experience" rows="4" aria-describedby="nameHelp" placeholder="Enter Past Experience of Alpha Testing" required></textarea>
+						</div>
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="submit" class="btn btn-success">Submit</button>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!---- /SIGN-UP MODAL ----->
+
+
 	<!---- FOOTER ----->
 	<footer>
 		<div class="container-fluid footer-container py-2 bg-dark">
@@ -79,6 +122,10 @@
 		</div>
 	</footer>
 	<!---- /FOOTER ----->
+
+	<script type="text/javascript" src="./libraries/jquery.slim.min.js"></script>
+	<script type="text/javascript" src="./libraries/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
