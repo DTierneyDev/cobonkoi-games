@@ -38,35 +38,59 @@
 	</nav>
 	<!----/NAVBAR ----->
 
-	<!---- ALPHA CALLOUT ----->
-	<div class="container-fluid alpha-callout-container">
+	<!---- CAROUSEL ----->
+	<div class="carousel-container container-fluid">
 		<div class="row">
 			<div class="col-12">
-				<section class="alpha-callout jumbotron text-center">
-					<h1 class="jumbotron-header">Hard Brexit</h1>
-					<hr>
-					<p>Become Theresa May and keep your politicians happy so that you can get your Brexit plan through!</p>
-					<button class="btn btn-lg" data-toggle="modal" data-target="#signUpModal">Sign up!</button>
-				</section>
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<!---- ALPHA CALLOUT ----->
+							<div class="container-fluid callout-container callout-container--alpha">
+								<div class="row">
+									<div class="col-12">
+										<section class="alpha-callout jumbotron text-center">
+											<h1 class="jumbotron-header">Hard Brexit</h1>
+											<hr>
+											<p>Become Theresa May and keep your politicians happy so that you can get your Brexit plan through!</p>
+											<button class="btn btn-lg" data-toggle="modal" data-target="#signUpModal">Sign up!</button>
+										</section>
+									</div>
+								</div>
+							</div>
+							<!---- /ALPHA CALLOUT ----->
+						</div>
+						<div class="carousel-item">
+							<!---- NEWSLETTER CALLOUT ----->
+							<div class="container-fluid callout-container callout-container--newsletter">
+								<div class="row">
+									<div class="col-12">
+										<section class="newsletter-callout jumbotron text-center">
+											<h1 class="jumbotron-header">Monthly Newsletter</h1>
+											<hr>
+											<p>Sign up to our monthly newsletter to get the latest on our projects, and lives as games developers.</p>
+											<form>
+												<div class="form-group">
+													<input type="email" class="form-control" id="exampleInputEmail" name="Email" aria-describedby="emailHelp" placeholder="Enter Email" required>
+												</div>
+												<button type="submit" class="btn btn-success">Submit</button>
+											</form>
+										</section>
+									</div>
+								</div>
+							</div>
+							<!---- /NEWSLETTER CALLOUT ----->
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	<!---- /ALPHA CALLOUT ----->
-	
-	<!---- NEWSLETTER CALLOUT ----->
-	<div class="container-fluid newsletter-callout-container">
-		<div class="row">
-			<div class="col-12">
-				<section class="newsletter-callout jumbotron text-center">
-					<h1 class="jumbotron-header">Monthly Newsletter</h1>
-					<hr>
-					<p>Sign up to our monthly newsletter to get the latest on our projects, and lives as games developers.</p>
-					<button class="btn btn-lg" data-toggle="modal" data-target="#signUpModal">Sign up!</button>
-				</section>
-			</div>
-		</div>
-	</div>
-	<!---- /NEWSLETTER CALLOUT ----->
+	<!---- /CAROUSEL ----->
 
 	<!---- SIGN-UP MODAL ----->
 	<div class="modal fade" tabindex="-1" role="dialog" id="signUpModal">
