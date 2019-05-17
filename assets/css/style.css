@@ -9,16 +9,10 @@ body {
 .callout-container {
     height: 90vh;
 
-    background: url("../images/union-jack.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-    
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     position: relative;
 }
 
@@ -38,13 +32,18 @@ body {
 /* ---- ALPHA-CALLOUT ---- */
 
 .callout-container--alpha {
+    background: url("../images/union-jack.jpg") no-repeat center center fixed;
     
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* ---- NEWSLETTER-CALLOUT ---- */
 
 .callout-container--newsletter {
-    
+    background-color: #A022BF;
 }
 
 /* ---- JUMBOTRON ---- */
@@ -58,13 +57,18 @@ body {
     font-weight: bold;
 }
 
+.jumbotron--callout {
+    border-radius: 0px;
+}
+
 .jumbotron p {
     color: #fff;
     font-weight: bold;
 }
 
 .jumbotron hr {
-    border-top: 1px solid rgba(255,255,255,.6);
+    border-top: 1px solid rgba(255, 255, 255, .6);
 }
 
 /* ---- BUTTONS ---- */
+

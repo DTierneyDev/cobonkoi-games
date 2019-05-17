@@ -27,14 +27,21 @@
 
 	<!---- NAVBAR ----->
 	<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-		<a href="/" class="navbar-brand ml-4">Cobonkoi Games</a>
+		<a href="index.html" class="navbar-brand ml-4">Cobonkoi Games</a>
 
-		<ul class="navbar-nav ml-auto mr-4">
-			<li class="active nav-item mr-3"><a class="nav-link" href="index.html">Home</a></li>
-			<li class="nav-item mr-3"><a class="nav-link" href="hard-brexit.html">Hard Brexit <span class="badge badge-success">NEW!</span></a></li>
-			<li class="nav-item mr-3"><a class="nav-link" href="about.html">About</a></li>
-			<li class="nav-item mr-3"><a class="nav-link" href="contact.html">Contact</a></li>
-		</ul>
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav ml-auto mr-4">
+				<li class="active nav-item mr-3"><a class="nav-link" href="index.html">Home</a></li>
+				<li class="nav-item mr-3"><a class="nav-link" href="hard-brexit.html">Hard Brexit <span class="badge badge-success">NEW!</span></a></li>
+				<li class="nav-item mr-3"><a class="nav-link" href="about.html">About</a></li>
+				<li class="nav-item mr-3"><a class="nav-link" href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+
+
 	</nav>
 	<!----/NAVBAR ----->
 
@@ -53,11 +60,11 @@
 							<div class="container-fluid callout-container callout-container--alpha">
 								<div class="row">
 									<div class="col-12">
-										<section class="alpha-callout jumbotron text-center">
+										<section class="alpha-callout jumbotron jumbotron--callout text-center">
 											<h1 class="jumbotron-header">Hard Brexit</h1>
 											<hr>
 											<p>Become Theresa May and keep your politicians happy so that you can get your Brexit plan through!</p>
-											<button class="btn btn-lg" data-toggle="modal" data-target="#signUpModal">Sign up!</button>
+											<button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#signUpModal">Sign up!</button>
 										</section>
 									</div>
 								</div>
@@ -69,7 +76,7 @@
 							<div class="container-fluid callout-container callout-container--newsletter">
 								<div class="row">
 									<div class="col-12">
-										<section class="newsletter-callout jumbotron text-center">
+										<section class="newsletter-callout jumbotron jumbotron--callout text-center">
 											<h1 class="jumbotron-header">Monthly Newsletter</h1>
 											<hr>
 											<p>Sign up to our monthly newsletter to get the latest on our projects, and lives as games developers.</p>
@@ -94,7 +101,7 @@
 
 	<!---- SIGN-UP MODAL ----->
 	<div class="modal fade" tabindex="-1" role="dialog" id="signUpModal">
-		<div class="modal-dialog" role="document">
+		<div class="modal-dialog modal-dialog-centered" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title">Alpha Sign-Up</h5>
