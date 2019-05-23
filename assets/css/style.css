@@ -72,3 +72,31 @@ body {
 
 /* ---- BUTTONS ---- */
 
+
+/* ---- IMAGES ---- */
+
+.workspace-image {
+    background-image: url("/assets/images/workspace.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.daniel-image {
+    background-image: url("/assets/images/daniel.png");
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.connor-image {
+    background-image: url("/assets/images/connor.jpg");
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
