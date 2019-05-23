@@ -2,6 +2,8 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+/* ---- CONTAINERS ---- */
+
 .carousel-container .col-12 {
     padding: 0;
 }
@@ -14,6 +16,18 @@ body {
     justify-content: center;
 
     position: relative;
+}
+
+.callout-container--newsletter {
+    background-color: #A022BF;
+}
+
+.container-about {
+    padding: 15px 15px;
+}
+
+.container-members {
+    padding: 15px 15px;
 }
 
 /* ---- ALERTS ---- */
@@ -38,12 +52,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-/* ---- NEWSLETTER-CALLOUT ---- */
-
-.callout-container--newsletter {
-    background-color: #A022BF;
 }
 
 /* ---- JUMBOTRON ---- */
@@ -71,6 +79,7 @@ body {
 }
 
 /* ---- BUTTONS ---- */
+
 
 
 /* ---- IMAGES ---- */
