@@ -2,6 +2,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+
 /* ---- CONTAINERS ---- */
 
 .carousel-container .col-12 {
@@ -22,13 +23,11 @@ body {
     background-color: #A022BF;
 }
 
-.container-about {
-    padding: 15px 15px;
+.about-container {
+    padding: 15px 25px;
+    background-color: #FFF;
 }
 
-.container-members {
-    padding: 15px 15px;
-}
 
 /* ---- ALERTS ---- */
 
@@ -43,16 +42,25 @@ body {
     padding: 0px 15px;
 }
 
+
 /* ---- ALPHA-CALLOUT ---- */
 
 .callout-container--alpha {
     background: url("../images/union-jack.jpg") no-repeat center center fixed;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
+
+/* ---- HEADERS ---- */
+
+.about-container h3 {
+    padding: 10px 0 0;
+}
+
 
 /* ---- JUMBOTRON ---- */
 
@@ -78,7 +86,9 @@ body {
     border-top: 1px solid rgba(255, 255, 255, .6);
 }
 
+
 /* ---- BUTTONS ---- */
+
 
 
 
@@ -86,36 +96,53 @@ body {
 
 .workspace-image {
     background: url("../images/workspace.jpg") center center no-repeat;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     height: 400px;
     width: 100%;
 }
 
 .daniel-image {
     background: url("../images/daniel.png") center center no-repeat;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     height: 400px;
     width: 100%;
 }
 
 .connor-image {
     background: url("../images/connor.jpg") center center no-repeat;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     height: 400px;
     width: 100%;
+}
+
+
+/* ---- MEDIA QUERIES ---- */
+
+@media (min-width: 768px) {
+    body {
+        font-family: 'Noto Sans', sans-serif;
+        background-color: #8c8c8c;
+    }
+
+    .about-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 15px 25px;
+        background-color: #FFF;
+    }
 }
