@@ -28,6 +28,10 @@ body {
     background-color: #FFF;
 }
 
+.contact-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /* ---- ALERTS ---- */
 
@@ -58,7 +62,7 @@ body {
 /* ---- HEADERS ---- */
 
 .about-container h3 {
-    padding: 10px 0 0;
+    padding: 5px 0 0;
 }
 
 
@@ -102,7 +106,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
-    height: 400px;
+    height: 300px;
     width: 100%;
 }
 
@@ -116,6 +120,8 @@ body {
 
     height: 400px;
     width: 100%;
+    
+    margin-bottom: 10px;
 }
 
 .connor-image {
@@ -128,6 +134,8 @@ body {
 
     height: 400px;
     width: 100%;
+    
+    margin-bottom: 10px;
 }
 
 
