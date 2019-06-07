@@ -166,5 +166,19 @@ body {
         padding: 15px 25px;
         background-color: #FFF;
     }
+    
+    .description-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 15px 25px;
+        background-color: #FFF;
+    }
+    
+    .media-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 15px 25px;
+        background-color: #FFF;
+    }
 
 }
