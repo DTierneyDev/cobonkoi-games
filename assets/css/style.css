@@ -28,6 +28,11 @@ body {
     background-color: #FFF;
 }
 
+.members-container {
+    padding: 15px 10px;
+    background-color: #FFF;
+}
+
 .contact-container {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -60,6 +65,7 @@ body {
 
 
 /* ---- HEADERS ---- */
+
 
 .about-container h3 {
     padding: 5px 0 0;
@@ -133,6 +139,10 @@ body {
     width: 100%;
 
     margin-bottom: 10px;
+}
+
+.members-container img {
+    padding: 10px 0px;
 }
 
 
