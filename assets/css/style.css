@@ -25,17 +25,27 @@ body {
 
 .about-container {
     padding: 15px 25px;
-    background-color: #FFF;
 }
 
 .members-container {
     padding: 15px 10px;
-    background-color: #FFF;
 }
 
 .contact-container {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.description-container {
+    padding: 15px 25px;
+}
+
+.media-container {
+    padding: 15px 25px;
+}
+
+.contact-block {
+    padding: 15px 25px;
 }
 
 /* ---- ALERTS ---- */
@@ -65,7 +75,6 @@ body {
 
 
 /* ---- HEADERS ---- */
-
 
 .about-container h3 {
     padding: 5px 0 0;
@@ -111,6 +120,15 @@ body {
     padding: 0px 5px;
 }
 
+/* ---- BLOCK-DIVIDERS ---- */
+
+.block-divider {
+    width: 90px;
+    height: 3px;
+    border: 0;
+    background-color: #444;
+}
+
 /* ---- MEDIA QUERIES ---- */
 
 @media (min-width: 768px) {
@@ -121,27 +139,29 @@ body {
     .about-container {
         margin-top: 20px;
         margin-bottom: 20px;
-        padding: 15px 25px;
         background-color: #FFF;
     }
 
     .contact-block {
         margin: 10px 0px;
-        padding: 15px 25px;
         background-color: #FFF;
     }
-    
+
+    .members-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #FFF;
+    }
+
     .description-container {
         margin-top: 20px;
         margin-bottom: 20px;
-        padding: 15px 25px;
         background-color: #FFF;
     }
-    
+
     .media-container {
         margin-top: 20px;
         margin-bottom: 20px;
-        padding: 15px 25px;
         background-color: #FFF;
     }
 
