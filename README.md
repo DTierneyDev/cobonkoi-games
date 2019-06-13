@@ -3,10 +3,19 @@
 User Centric Frontend Development Milestone Project
 
 This is a website created for Cobonkoi Games, an indie games development company that are currently developing their first game.
-The website includes information on the company, the game that is currently being developed and contact information should you wish to get in touch.
+The website includes information on the company/employees, the game that is currently being developed and contact information should you wish to get in touch.
 In addition it allows you to sign up for the alpha testing of "Hard Brexit", and a monthly newsletter.
 
-A live demo can be found here: https://cobonkoi.github.io/cobonkoi-games/
+The goals of the website are to:
+ - Build awareness of Cobonkoi Games
+ - Provide information about the games created by Cobonkoi Games
+ - Provide information on the progress of games in development
+ - Get people to sign up to Alpha Testing
+ - Get people to sign up to the Newsletter
+
+## Demo
+
+A demo can be viewed on Github Pages [here](https://cobonkoi.github.io/cobonkoi-games/).
  
 ## UX
  
@@ -17,9 +26,47 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+My goal was to provide a simple design for the website to provide lots of information in small, easily digestible chunks.
+To do this I have made the navigation easy to understand. Each section on the pages are clearly titled and seperate from one another.
+
+The website is for people who would like to know more about Cobonkoi Games and/or the games they develop. Also for people who wish to become alpha testers for them.
+
+#### User Stories
+
+1. As a new visitor to the site, I want to be able to easily navigate the site, so that I can find what I want easily.
+2. As a new visitor to the site, I want to see the games this company has created, to see if they are worth purchasing.
+3. As an interested Alpha tester, I want to sign-up to become a tester, so that I can begin testing games.
+4. As a person interested in Cobonkoi Games, I want to learn more about the company, so that I can decide whether to support them further.
+5. As a person interested in Cobonkoi Games, I want to learn how I can contact them, so that I can receive further information.
+6. As a person interested in Hard Brexit, I want to learn more about the game, so that I can decide whether I would like to purchase it on release.
+
+#### Wireframe Mockups
+
+
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+ 
+Each page features an alert that will only appear on larger screen sizes, this provides information about Hard Brexit Alpha testing and a link for more information.
+Each page features a navigation bar that is responsive to screen sizes. This contains links to each other page, as well as the company name in the top left.
+Each page features a footer which contains links to 5 social media pages for the company.
+
+#### Home
+This page features a large carousel with 2 slides on it. This has indicators on the bottom to show which slide you are currently on. 
+On larger screens it features navigation arrows to switch between the slides, these are removed on mobile due to being too obstructive.
+
+Slide 1 features a a little information about the game Hard Brexit, as well as a button to sign up to the Alpha.
+
+
+#### Hard Brexit
+
+
+#### About
+
+
+#### Contact
+ 
+ 
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -39,6 +86,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
+1. HTML
+2. CSS
+3. Bootstrap
+4. JQuery
 
 ## Testing
 
