@@ -18,14 +18,6 @@ The goals of the website are to:
 A demo can be viewed on Github Pages [here](https://cobonkoi.github.io/cobonkoi-games/).
  
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
 My goal was to provide a simple design for the website to provide lots of information in small, easily digestible chunks.
 To do this I have made the navigation easy to understand. Each section on the pages are clearly titled and seperate from one another.
 
@@ -44,9 +36,6 @@ The website is for people who would like to know more about Cobonkoi Games and/o
 
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 Each page features an alert that will only appear on larger screen sizes, this provides information about Hard Brexit Alpha testing and a link for more information.
 Each page features a navigation bar that is responsive to screen sizes. This contains links to each other page, as well as the company name in the top left.
 Each page features a footer which contains links to 5 social media pages for the company.
@@ -55,73 +44,72 @@ Each page features a footer which contains links to 5 social media pages for the
 This page features a large carousel with 2 slides on it. This has indicators on the bottom to show which slide you are currently on. 
 On larger screens it features navigation arrows to switch between the slides, these are removed on mobile due to being too obstructive.
 
-Slide 1 features a a little information about the game Hard Brexit, as well as a button to sign up to the Alpha.
+Slide 1 features a little information about the game Hard Brexit, as well as a button to sign up to the Alpha.
+The Sign-Up button bring a modal up on screen which can be used to input data.
 
+Slide 2 features a little information about the newsletter and an input box to enter your email and submit it.
 
 #### Hard Brexit
+This page features firstly, a section detailing the game with an embed teaser video hosted on youtube. This does not autoplay as it contains music and
+this playing unexpectedly would make for poor user experience.
+On the mobile version the video will appear under the text instead of to the side. This provides a much better viewing experience on mobile.
 
+The second section features an embed soundcloud album of soundclips from the game, this also will not autoplay.
+Following this there is a carousel featuring screenshots from the game. This has indicators and navigation arrows that will be removed on the mobile version,
+for the same reasons as the index page.
 
 #### About
+This page features firstly, a section detailing the company itself, with an accompanying image.
 
+The second second features images and text to give details on the employees.
+
+In both of the sections on this page, the text and images become full columns on mobile instead of appearing next to one another.
+This provides a much better viewing experience on mobile.
 
 #### Contact
+This page features 3 seperate blocks with information in each on larger screen sizes.
+On mobile devices they become full columns and follow one after the other with dividers to define where the sections end.
+
+One section contains the 5 links from the footer of the page.
+
+While another section contains a form that will enable you to contact the company directly.
  
- 
- 
+
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Alpha Sign-Up form - This form allows the user to sign up for the "Hard Brexit" Alpha by having them fill in their information and submitting it.
+- Newsletter Sign-Up - This allows the user to sign up for a newsletter by having them fill in their email address and submitting it.
+- Contact Us Form - This form allows the users to contact the company by having them fill in their details and message and submitting it.
 
 ### Features Left to Implement
 - Another feature idea
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
 1. HTML
 2. CSS
 3. Bootstrap
 4. JQuery
 
 ## Testing
+1. Alpha Sign-Up form:
+    1. Went to the "Index" page
+    2. Tried to submit the empty form and confirmed that an error message about the required fields appears.
+    3. Tried to submit the form with an invalid email address and verify that a relevant error message appears.
+    4. Tried to submit the form with all inputs valid and verify it submits.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+2. Newsletter form:
+    1. Went to the "Index" page
+    2. Tried to submit the empty form and confirmed that an error message about the required fields appears.
+    3. Tried to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Tried to submit the form with all inputs valid and verify it submits.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
+1. Contact Us form:
     1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+    2. Tried to submit the empty form and confirmed that an error message about the required fields appears.
+    3. Tried to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Tried to submit the form with all inputs valid and verify it submits.
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+This site is hosted on Github Pages, it uses the master branch. The site updates automatically every time there is a new commit to the master branch.
 
 ## Credits
 
