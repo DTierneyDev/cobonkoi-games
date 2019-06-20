@@ -10,8 +10,8 @@ The goals of the website are to:
  - Build awareness of Cobonkoi Games
  - Provide information about the games created by Cobonkoi Games
  - Provide information on the progress of the games that are in development
- - Get people to sign up to Alpha Testing
- - Get people to sign up to the Newsletter
+ - Encourage people to sign up to Alpha Testing
+ - Encourage people to sign up to the Newsletter
 
 ## Demo
 
@@ -55,7 +55,7 @@ This page features a large carousel with 2 slides on it. This has indicators on 
 On larger screens it features navigation arrows to switch between the slides, these are removed on mobile due to being too obstructive.
 
 Slide 1 features a little information about the game Hard Brexit, as well as a button to sign up to the Alpha.
-The Sign-Up button bring a modal up on screen which can be used to input data.
+The Sign-Up button brings a modal up on screen which can be used to input data.
 This form will check for valid data and warns the user if there is data missing or in the incorrect format.
 
 Slide 2 features a little information about the newsletter and an input box to enter your email and submit it.
@@ -69,13 +69,13 @@ On the mobile version the video will appear under the text instead of to the sid
 The second section features an embed soundcloud album of soundclips from the game, this also will not autoplay.
 
 The third section features another sign-up button for the Alpha. 
-The Sign-Up button bring a modal up on screen which can be used to input data.
+The Sign-Up button brings a modal up on screen which can be used to input data.
 This form will check for valid data and warns the user if there is data missing or in the incorrect format.
 
 #### About
 This page features firstly, a section detailing the company itself, with an accompanying image.
 
-The second second features images and text to give details on the employees.
+The second section features images and text to give details on the employees.
 
 In both of the sections on this page, the text and images become full columns on mobile instead of appearing next to one another.
 This provides a much better viewing experience on mobile.
@@ -84,9 +84,11 @@ This provides a much better viewing experience on mobile.
 This page features 3 seperate blocks with information in each on larger screen sizes.
 On mobile devices they become full columns and follow one after the other with dividers to define where the sections end.
 
-One section contains the 5 links from the footer of the page.
+The first section contains the postal address of the company.
 
-While another section contains a form that will enable you to contact the company directly.
+The following section contains the 5 links from the footer of the page.
+
+While the final section contains a form that will enable you to contact the company directly.
 This form will check for valid data and warn the user if there is data missing or in the incorrect format.
  
 
@@ -96,7 +98,7 @@ This form will check for valid data and warn the user if there is data missing o
 - Contact Us Form - This form allows the users to contact the company by having them fill in their details and message and submitting it.
 
 ### Features Left to Implement
-- A gallery containing screenshots of the game on the Hard Brexit page.
+- A gallery containing screenshots of the game on the Hard Brexit page. This was left out due to time constraints on submitting this project and could be added in the future.
 
 ## Technologies Used
 1. HTML
@@ -125,7 +127,6 @@ This form will check for valid data and warn the user if there is data missing o
 
 ## Deployment
 This site is hosted on Github Pages, it uses the master branch. The site updates automatically every time there is a new commit to the master branch.
-
 
 ### Media
 - The workspace image on this site was found on [Pexels](https://www.pexels.com/), a stock image website.
