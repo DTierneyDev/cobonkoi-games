@@ -9,7 +9,7 @@ In addition it allows you to sign up for the alpha testing of "Hard Brexit", and
 The goals of the website are to:
  - Build awareness of Cobonkoi Games
  - Provide information about the games created by Cobonkoi Games
- - Provide information on the progress of games in development
+ - Provide information on the progress of the games that are in development
  - Get people to sign up to Alpha Testing
  - Get people to sign up to the Newsletter
 

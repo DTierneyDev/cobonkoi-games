@@ -44,6 +44,10 @@ body {
     padding: 15px 25px;
 }
 
+.alpha-container {
+    padding: 25px;
+}
+
 .contact-block {
     padding: 15px 25px;
 }
@@ -160,6 +164,12 @@ body {
     }
 
     .media-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #FFF;
+    }
+    
+    .alpha-container {
         margin-top: 20px;
         margin-bottom: 20px;
         background-color: #FFF;
