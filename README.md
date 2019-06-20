@@ -56,8 +56,10 @@ On larger screens it features navigation arrows to switch between the slides, th
 
 Slide 1 features a little information about the game Hard Brexit, as well as a button to sign up to the Alpha.
 The Sign-Up button bring a modal up on screen which can be used to input data.
+This form will check for valid data and warns the user if there is data missing or in the incorrect format.
 
 Slide 2 features a little information about the newsletter and an input box to enter your email and submit it.
+This form will check for valid data and warns the user if there is data missing or in the incorrect format.
 
 #### Hard Brexit
 This page features firstly, a section detailing the game with an embed teaser video hosted on youtube. This does not autoplay as it contains music and
@@ -65,8 +67,10 @@ this playing unexpectedly would make for poor user experience.
 On the mobile version the video will appear under the text instead of to the side. This provides a much better viewing experience on mobile.
 
 The second section features an embed soundcloud album of soundclips from the game, this also will not autoplay.
-Following this there is a carousel featuring screenshots from the game. This has indicators and navigation arrows that will be removed on the mobile version,
-for the same reasons as the index page.
+
+The third section features another sign-up button for the Alpha. 
+The Sign-Up button bring a modal up on screen which can be used to input data.
+This form will check for valid data and warns the user if there is data missing or in the incorrect format.
 
 #### About
 This page features firstly, a section detailing the company itself, with an accompanying image.
@@ -83,6 +87,7 @@ On mobile devices they become full columns and follow one after the other with d
 One section contains the 5 links from the footer of the page.
 
 While another section contains a form that will enable you to contact the company directly.
+This form will check for valid data and warn the user if there is data missing or in the incorrect format.
  
 
 ### Existing Features
@@ -91,7 +96,7 @@ While another section contains a form that will enable you to contact the compan
 - Contact Us Form - This form allows the users to contact the company by having them fill in their details and message and submitting it.
 
 ### Features Left to Implement
-- Another feature idea
+- A gallery containing screenshots of the game on the Hard Brexit page.
 
 ## Technologies Used
 1. HTML
@@ -121,14 +126,9 @@ While another section contains a form that will enable you to contact the compan
 ## Deployment
 This site is hosted on Github Pages, it uses the master branch. The site updates automatically every time there is a new commit to the master branch.
 
-## Credits
-
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The workspace image on this site was found on [Pexels](https://www.pexels.com/), a stock image website.
+- The Union Jack image on this site was found on [Pixabay](https://pixabay.com), which allowed free commercial use of this image.
 
-### Acknowledgements
-
-- I received inspiration for this project from X
+This is for educational use.
