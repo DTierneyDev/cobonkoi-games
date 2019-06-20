@@ -34,6 +34,16 @@ The website is for people who would like to know more about Cobonkoi Games and/o
 
 #### Wireframe Mockups
 
+- [Index](wireframes/index.png).
+- [Index - Mobile](wireframes/indexmobile.png).
+- [Index - Mobile - Menu](wireframes/indexmobilemenu.png).
+- [Hard Brexit](wireframes/hardbrexit.png).
+- [Hard Brexit - Mobile](wireframes/hardbrexitmobile.png).
+- [About](wireframes/about.png).
+- [About - Mobile](wireframes/aboutmobile.png).
+- [Contact](wireframes/contact.png).
+- [Contact - Mobile](wireframes/contactmobile.png).
+
 
 ## Features
 Each page features an alert that will only appear on larger screen sizes, this provides information about Hard Brexit Alpha testing and a link for more information.
@@ -86,7 +96,7 @@ While another section contains a form that will enable you to contact the compan
 ## Technologies Used
 1. HTML
 2. CSS
-3. Bootstrap
+3. Bootstrap (4.3)
 4. JQuery
 
 ## Testing
