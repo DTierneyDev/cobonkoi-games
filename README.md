@@ -90,7 +90,7 @@ The following section contains the 5 links from the footer of the page.
 
 While the final section contains a form that will enable you to contact the company directly.
 This form will check for valid data and warn the user if there is data missing or in the incorrect format.
- 
+
 
 ### Existing Features
 - Alpha Sign-Up form - This form allows the user to sign up for the "Hard Brexit" Alpha by having them fill in their information and submitting it.
@@ -127,6 +127,7 @@ This form will check for valid data and warn the user if there is data missing o
 
 ## Deployment
 This site is hosted on Github Pages, it uses the master branch. The site updates automatically every time there is a new commit to the master branch.
+A demo can be viewed on Github Pages [here](https://cobonkoi.github.io/cobonkoi-games/).
 
 ### Media
 - The workspace image on this site was found on [Pexels](https://www.pexels.com/), a stock image website.
