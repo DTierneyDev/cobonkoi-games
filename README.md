@@ -15,7 +15,7 @@ The goals of the website are to:
 
 ## Demo
 
-A demo can be viewed on Github Pages [here](https://cobonkoi.github.io/cobonkoi-games/).
+A demo can be viewed on Github Pages [here](https://dtierneydev.github.io/cobonkoi-games/).
  
 ## UX
 My goal was to provide a simple design for the website to provide lots of information in small, easily digestible chunks.
